@@ -7,14 +7,14 @@
 
 #paper {
     display: inline-block;
-    background-color: rgb(255, 254, 244);
+    background-color: rgb(66, 66, 66);
     width: 90%;
     height: 100vh;
 }
 
 #toolbox-container {
     display: inline-block;
-    background-color: rgb(255, 254, 244);
+    background-color: rgb(66, 66, 66);
     width: 10%;
     height: 100vh;
     padding: 15px;
@@ -26,8 +26,8 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    background-color: rgb(185, 176, 125);
-    box-shadow: 1px 1px 3px 3px rgba(155, 155, 155, 0.513);
+    background-color: rgb(87, 17, 0);
+    box-shadow: 1px 1px 3px 3px rgba(155, 155, 155, 0.274);
 }
 
 .area {

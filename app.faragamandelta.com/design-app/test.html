@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/3.4.0/fabric.min.js"></script>
+
+
+</head>
+
+<body>
+    <label><input type="checkbox" id="checkbox" checked="true"><strong style="font-size: 2en">Enabled</strong></label>
+    <button id="changeCanvasPosition">Change Canvas Position</button>
+    <label><input type="checkbox" id="drawRect" checked="true">Draw rectangle bounds</label>
+    <label><input type="checkbox" id="onlyOne" checked="true">Only one</label>
+
+    <div class="wrapper" style="margin-left: 200px; margin-top: 200px;">
+        <canvas id="canvas" width="500" height="500" style="border: 2px solid black"></canvas>
+    </div>
+
+
+    <script src="./guildlines.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
